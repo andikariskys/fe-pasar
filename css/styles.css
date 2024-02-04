@@ -11279,9 +11279,10 @@ header.masthead .btn-custom {
 
 section#maps {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/map-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 section#maps .section-heading {
   color: #fff;
