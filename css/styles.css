@@ -6841,6 +6841,11 @@ textarea.form-control-lg {
   z-index: 1020;
 }
 
+.sticky-top-custom {
+  position: sticky;
+  min-height: 100vh
+}
+
 .sticky-bottom {
   position: sticky;
   bottom: 0;
@@ -11325,6 +11330,13 @@ section#maps {
 }
 section#maps .section-heading {
   color: #fff;
+}
+
+.link-hidden {
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
 }
 
 .time-event {
