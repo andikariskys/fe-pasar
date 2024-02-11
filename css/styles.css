@@ -6843,7 +6843,8 @@ textarea.form-control-lg {
 
 .sticky-top-custom {
   position: sticky;
-  min-height: 100vh
+  top: 0;
+  padding-top: 5rem;
 }
 
 .sticky-bottom {
@@ -11344,6 +11345,10 @@ section#maps .section-heading {
   padding: 3px 6px 3px 6px; 
   background-color: #B78D65; 
   color: white;
+}
+
+.detail-event {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .footer {
