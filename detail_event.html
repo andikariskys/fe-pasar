@@ -33,7 +33,7 @@
                         <li class="nav-item"><a class="nav-link" href="#">Komoditas</a></li>
                         <li class="nav-item"><a class="nav-link" href="informasi_event.html">Informasi & Event</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Denah Pasar</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="daftar_petanyaan.html">FAQ</a></li>
                     </ul>
                 </div>
             </div>
@@ -127,18 +127,6 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
-
-            $('#anonymous').on('change', function() {
-                if ($(this).is(':checked')) {
-                    $('#question_name').prop('disabled', true);
-                    $('#question_email').prop('disabled', true);
-                } else {
-                    $('#question_name').prop('disabled', false);
-                    $('#question_email').prop('disabled', false);
-                    $('#question_name').prop('required', true);
-                    $('#question_email').prop('required', true);
-                }
-            });
         </script>
     </body>
 </html>
